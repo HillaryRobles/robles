@@ -1,0 +1,341 @@
+*{margin: 0;
+			padding: 0;}
+
+
+			.cajita{
+				padding: 15px;
+				color: white;
+			}
+	 		.dropdown{
+				position: relative;
+				display: inline-block;
+				float: right;
+				color: black;
+
+
+			}
+			.btnDrop{
+				background: transparent;
+				padding: 15px;
+				color:white;
+				font-size: 15px;
+				border:none;
+
+			}
+			.dropDown_contenido{
+				display: none;
+				position: absolute;
+				background: #FFFFFF;
+				z-index: 2;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				margin-top: 0px;
+				border-radius: 5px;
+				width: 105px;
+				height: 200px;
+				 
+				
+				
+
+
+			}
+			.dropDown_contenido a{
+				margin-top: 10px;
+				text-align: center;
+				text-decoration:none;
+				display: block;
+				color: black;
+				padding: 10px;
+				width: 85px;
+			 
+
+
+
+				
+				
+				 }
+			.dropdown:hover .dropDown_contenido{
+				display: block;
+				color: black;
+
+
+			}
+			.dropdown:hover .btnDrop{
+				background: ##E0E0E0;
+
+
+			}
+			.dropDown_contenido a:hover{
+				background: #FFAB91;
+				color: white;
+
+			}
+	 
+	 	.contenedor{
+	 		
+	 		background-image: url("img/banner.jpg");
+	 		background-repeat: no-repeat;
+	 		display: inline-block;
+	 		width: 100%;
+	 		height: 400px;
+	 		color: white;
+	 		top: 0;
+	 		position: relative;
+
+	 	}
+	 	#caja{
+	 		background: black;
+	 		position: fixed;
+	 		width: 100%;
+	 		height: 50px;
+	 		float: left;
+	 	}
+	 	#caja a{
+	 		
+	 		float: right;
+	 		text-align: center;
+	 		color:auto;
+	 		text-decoration: none;
+	 		padding: auto;
+
+	 	} 
+	 	
+	 	.boton{
+
+	 		background: transparent;
+	 		border-radius: 5px;
+	 		border: white solid 2px;
+	 		padding: 5px;
+	 		float: right;
+	 		color: white;
+	 		margin-right: 9px;
+	 		margin-top: 8px;
+	 		display: inline-block;
+
+	 	
+	 	}
+	 	
+	 		
+	 	
+	 		
+	 	
+	 	.caja1{
+	 		text-align: center;
+	 		margin-top: 100px;
+	 	}
+	 	.boton1{
+	 		color: black;
+	 		border-radius:6px;
+	 		padding: 5px;
+	 		background: white;
+	 		text-align: center;
+	 		align-content: center;
+	 		border: none;
+	 		padding-right: 35px;
+	 		padding-left: 35px;
+
+	 	}
+	 	.boton2{
+	 		color: white;
+	 		border-radius:6px;
+	 		padding: 5px;
+	 		background: transparent;
+	 		text-align: center;
+	 		align-content: center;
+	 		border: white solid 1px;
+	 		padding-right: 35px;
+	 		padding-left: 35px;
+
+	 	}
+	 	.contenedor2{
+	 		background: #EEEEEE;
+	 		width: 100%;
+	 		height: 1500px;
+	 		backface-visibility: hidden;
+	 	}
+	 	.caja2{
+	 		background: white;
+	 		text-align: center;
+	 		position: relative;left: 530px;top: 280px;
+	 		border-radius: 5px;
+	 		padding: 60px;
+	 		backface-visibility: hidden;
+
+	 	}
+	 	.linea{
+	 		background: black;
+	 		width: 500px;
+	 		height: 1px;
+	 		align-content: center;
+	 		
+	 	}
+	 	.caja3{
+	 		display:flex;
+	 		background: white;
+	 		width: 39%;
+	 		height: 500px;
+	 		position: relative;left: 530px; top: 550px;
+
+	 	}
+	 	.caja3_1{
+	 		display: block;
+	 		padding: 20px;
+	 		text-align: center;
+	 		margin-top: 20px;
+	 	}
+	 	img{
+	 		width: 90px;
+	 		height: 90px;
+
+	 	
+	 	}
+	 	.caja3_3{
+	 		display: block;
+	 		padding: 20px;
+	 		text-align: center;
+	 		margin-top: 20px;
+	 	}
+
+	 	.caja4{
+	 		display:block;
+	 		background: white;
+	 		width: 18.5%;
+	 		height: auto;
+	 		position: absolute;left: 530px; top: 1080px;
+	 		border-radius: 5px;
+	 		text-align: center;
+	 		transition: all 1s ease-in-out;
+
+	 	}
+	 	.caja4:hover{
+	 		
+	 	
+	 		 transform: rotate(-40deg) scale(1.2);
+	 	}
+	 	.img1{
+	 		width: 295px;
+	 		height: 150px;
+	 		border-radius: 5px 5px 0px 0px;
+	 	}
+	 	.boton_a{
+	 		background: transparent;
+	 		color: black;
+	 		border-radius: 5px;
+	 		border: grey solid 1px;
+	 		padding-right: 20px;
+	 		padding-left: 20px;
+	 		padding-bottom: 8px;
+	 		padding-top: 8px;
+	 		font-size: 8pt;
+
+	 	}
+	 	.cuadro1{
+	 		padding: 30px;
+	 	}
+
+
+	 	.caja5{
+	 		display:block;
+	 		background: white;
+	 		width: 18.5%;
+	 		height: auto;
+	 		position: absolute;left: 850px; top: 1080px;
+	 		border-radius: 5px;
+	 		text-align: center;
+			transition: all 1s ease-in-out;
+
+	 	}
+	 	.caja5:hover{
+	 		
+	 	
+	 		 transform: rotate(-40deg) scale(1.2);
+	 	}
+	 	.img2{
+	 		width: 295px;
+	 		height: 150px;
+	 		border-radius: 5px 5px 0px 0px;
+	 	}
+	 	.boton_b{
+	 		background: transparent;
+	 		color: black;
+	 		border-radius: 5px;
+	 		border: grey solid 1px;
+	 		padding-right: 20px;
+	 		padding-left: 20px;
+	 		padding-bottom: 8px;
+	 		padding-top: 8px;
+	 		font-size: 8pt;
+	 	}
+	 	.cuadro2{
+	 		padding: 30px;
+	 	}
+
+	 	.caja6{
+	 		background: #FF9E80;
+	 		text-align: center;
+	 		color: white;
+	 		position: relative;top: 1065px;
+	 		height: 200px;
+	 		padding-top: 80px;	 		
+	 	}
+	 	.imput{
+	 		border-radius: 5px;
+	 		border: none;
+	 		background: #FFAB91;
+	 		color: white;
+	 		padding: 10px;
+	 	}
+	 	.botonA{
+	 		border-radius: 5px;
+	 		border: none;
+	 		background: white;
+	 		color: #FF9E80;	 		
+	 		padding: 10px;
+	 		
+
+	 	}
+	 	.caja7{
+	 		position: relative;top: 1105px;
+	 		text-align: center;
+	 	}
+	 	.imagen1{
+	 		
+	 		
+	 		width: 30px;
+	 		height: 30px;
+	 		border-radius: 50px;
+	 		
+
+
+	 	}
+	 	.imagen2{
+	 		width: 30px;
+	 		height: 30px;
+	 	
+	 		
+	 		
+	 	}
+	 	
+
+	 	.imagen4{
+	 		width: 30px;
+	 		height: 30px;
+	 		
+	 	}
+	 	.imagen5{
+	 		width: 30px;
+	 		height: 30px;
+	 		
+	 		
+	 	}
+	 	.imagen6{
+	 		width: 30px;
+	 		height: 30px;
+	 		
+	 	
+	 	}
+	 	.imagen8{
+	 		width: 30px;
+	 		height: 30px;
+	
+
+	}
